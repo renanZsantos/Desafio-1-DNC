@@ -1,0 +1,18 @@
+body{
+    margin: 0px;
+    font-family: "inter";
+}
+
+.coluna{
+    display: flex;
+}
+
+header, footer{
+    background-color: #303030;
+    color: white;
+}
+
+nav{
+    display: flex;   
+    flex-direction: column;
+}
