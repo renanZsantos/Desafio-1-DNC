@@ -1,18 +1,71 @@
-body{
-    margin: 0px;
+body{ 
+    margin: 0px; 
     font-family: "inter";
+   
+}     
+
+header{
+    background-color: #303030;
+    color: white;
+    padding: 120px 0px 70px 50px;
+    font-size: 20px;
 }
 
 .coluna{
-    display: flex;
+    display:grid;
+    grid-auto-flow: column;
+    columns:auto;
+    background-color: #F9F9F9;
+    text-align: left;
+    padding: 50px 100px 50px 100px;
 }
 
-header, footer{
+section{
+    background-color:black;
+}
+
+.numeros{
+    font-size:  30px;    
+    
+}
+
+footer{
     background-color: #303030;
+    text-align: center;
+    padding: 50px 0px 100px 0px;    
+    font-size: 20px;
     color: white;
+
 }
 
-nav{
-    display: flex;   
-    flex-direction: column;
+#texto-img{
+    padding: 150px 0px 50px 0px;
+}
+
+input{
+    width: 370px;
+    height: 50px;
+    background-color: #EAECE5;
+    margin: 20px;
+    border: 0px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+button{
+    background-color: #C07212;
+    color: #FFFFFF;
+    height: 60px;
+    width: 280px;
+    border: 0px;
+    border-radius: 5px;
+    margin: 35px 0px 50px;
+    font-weight: bolder;
+    cursor: pointer; 
+}
+
+button:hover{
+    transform: translateY(-8px);
+   
+    transition-duration: 0.8s;
 }

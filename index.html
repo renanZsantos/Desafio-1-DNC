@@ -3,8 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <title>Desafio DNC</title>
 </head>
 
 <body>
@@ -15,22 +18,25 @@
 
     <main>
         <section class="coluna">
-            <div >  
-                <p><b>850</b> <br>empreendimentos construídos </p>  
+            <div>  
+                <p> <b class="numeros">850</b> <br> empreendimentos construídos</p>
             </div>
             <div> 
-                <p> <b>40</b><br>anos de mercado e experiência  </p>
+                <p> <b class="numeros">40</b><br>anos de mercado e experiência  </p>
             </div>
             <div>
-                <p> <b> 2,000,000</b> <br>m² em projetos construídos</p>
+                <p> <b class="numeros"> 2,000,000</b> <br>m² em projetos construídos</p>
             </div>
         </section>
         
         <section class="coluna">
-            <div>
-                <h1>Arquiitetos com História e Experiência.</h1>
-                <p>Nós realizamos desde 2002 projetos e gerenciamento de obras.  Com mais de 800 projetos e 2.000.000 de m² construídos, 
-                tendo como principal proposta transformar em realidade os sonhos de seus clientes, criando projetos personalizados, unindo a tradição e a modernidade em nossos projetos.</p>
+            <div id="texto-img">
+                <h1>Arquiitetos com História e Experiência.</h1> <br> 
+                <p>Nós realizamos desde 2002 projetos e gerenciamento de obras. <br> 
+                   Com mais de 800 projetos e 2.000.000 de m² construídos, tendo  <br>
+                   como principal proposta transformar em realidade os sonhos de  <br>
+                   seus clientes, criando projetos personalizados, unindo a tradição  <br>
+                   e a modernidade em nossos projetos.</p>
             </div>      
 
             <figure>
@@ -45,10 +51,10 @@
     <footer>
         <h2>Conheça mais sobre nossos serviços:</h2>
         <form action="https://api.sheetmonkey.io/form/8PVaiJTys9CsHUKMcS6Dqc" method="post">
-            <label> Nome: <input type="text" name="Name" required /></label>
-            <label> Email: <input type="email" name="Email" required /></label>
+            <label>  <input type="text" name="Name" required placeholder="Nome" /></label> <br>
+            <label>  <input type="email" name="Email" required placeholder="Email" /></label> <br>
             <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
-            <input type="submit" value="Sign Up" />
+            <button type="submit">Fale Conosco</button>
           </form>        
                 
     </footer>
