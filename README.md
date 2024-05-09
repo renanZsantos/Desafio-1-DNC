@@ -1,6 +1,6 @@
-Desenvolvendo uma Landing Page Primeiro Desafio da DNC módulo básico
+
 # Desafio-Landing-Page
-Desenvolva uma Landing Page
+Desenvolvendo uma Landing Page Primeiro Desafio da DNC módulo básico
 Primeiro Desafio da DNC modulo basico
 
 [Link do site](https://desafio-landing-page-do-kairo.netlify.app/ ) <br>
